@@ -40,5 +40,5 @@ python3 edit.py
 * To extract the audio of a video you've downloaded:
 ```python
 #Edit the input path and the start, end seconds.
-python3 extract_audio_only.py
+python3 get_audio.py
 ```
