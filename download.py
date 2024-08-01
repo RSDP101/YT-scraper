@@ -9,7 +9,7 @@ def clean_temp_files(directory, title):
         if os.path.exists(temp_file) and ext != '.mp4':
             os.remove(temp_file)
 
-youtube_url = 'https://www.youtube.com/watch?v=WC08trrozPs'
+youtube_url = 'https://www.youtube.com/shorts/xdq3AdZeAd0'
 save_dir = 'Downloaded_videos'
 os.makedirs(save_dir, exist_ok=True)
 
