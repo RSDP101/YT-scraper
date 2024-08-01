@@ -12,8 +12,8 @@ def trim_video(input_file, output_file, start_time, end_time):
 
 if __name__ == "__main__":
     # Define input and output file paths
-    input_path = "Downloaded_videos/trump.mp4"
-    output_path = "Downloaded_videos/trump_trimmed.mp4"
+    input_path = "Downloaded_videos/<input_video.mp4>"
+    output_path = "Downloaded_videos/<output_video.mp4>"
     
     # Define the segment to trim (in seconds)
     start = 0  # Start time in seconds
